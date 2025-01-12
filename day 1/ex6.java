@@ -15,16 +15,13 @@ public class ex6 {
             if (i % 2 == 0) {
                 sum1 = sum1 + i;
         }
-    }
-        System.out.println("the sum of even number is " + sum1);
-    if(i%2!=0){
-        for(int j=0;j<=num;j=j+2){
-            sum2 = sum2 +j;
-        }
-        System.out.println("the sum of odd number is " + sum2);
-    }
+        else{
         
-       
-
+            sum2 = sum2 +i;
+    }
+}
+        
+    System.out.println("the sum of odd number is " + sum2);
+    System.out.println("the sum of even number is " + sum1);
     }
 }
