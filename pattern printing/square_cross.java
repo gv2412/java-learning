@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Main {
+class square_cross {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
