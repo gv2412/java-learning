@@ -7,7 +7,7 @@ public class basic_type3 {
         System.out.println(c);
     }
     public static int sum(int a,int b){
-        int res= 
+        int res= a+b;
         return res;
     }
 }

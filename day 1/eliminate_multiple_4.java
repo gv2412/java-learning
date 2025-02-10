@@ -1,6 +1,6 @@
 // eliminate the multiples of 4 using continue statement 
 import java.util.*;
-public class ex8 {
+public class eliminate_multiple_4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();

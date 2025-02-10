@@ -1,7 +1,7 @@
 //sum of n numbers using loop
 import java.util.*;
 
-public class ex5 {
+public class sum_numbers {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

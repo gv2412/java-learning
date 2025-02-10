@@ -1,6 +1,6 @@
 //ampicable pair or not
 import java.util.*; 
-public class ex13 {
+public class ampicable_number {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num1 = sc.nextInt();

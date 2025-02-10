@@ -1,5 +1,5 @@
 //printing the statements
-class ex1 {
+class printing_sentence {
     public static void main(String[] args) {
         System.out.println("Hello World");
         System.out.println("lets learn 'java' with 'EEE' ");

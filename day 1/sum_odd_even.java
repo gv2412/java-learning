@@ -1,7 +1,7 @@
 //sum of odd and even numbers in n numbers
 import java.util.*;
 
-public class ex6 {
+public class sum_odd_even {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();

@@ -1,5 +1,5 @@
 //printing special characters
-class ex2
+class printing_symbols
 {
     public static void main(String[] args)
     {

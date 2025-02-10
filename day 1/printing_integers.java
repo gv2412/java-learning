@@ -1,5 +1,5 @@
 //printing static datatypes
-class ex3
+class printing_integers
 {
     public static void main(String[] args) {
         int num = 10;

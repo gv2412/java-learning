@@ -1,29 +1,30 @@
-import java.util.Scanner;
-
+//generate a code to check whether the given number is armstrong number or not
+import java.util.*;
 public class amstrong {
-
-	public static void main(String[] args) {
-
-		Scanner sc=new Scanner(System.in);
-		int n=sc.nextInt();
-		int count=0;
-		int s;
-		double q;double sum=0;int m=n;
-		while(n>0)
-		{
-			int d=n%10;
-			 q=Math.pow(d,s);
-			 sum=sum+q;
-			 count=count+1;
-			n=n/10;
-		}
-		if(m==sum) {
-			System.out.print("yeah its Amstrong");
-		}
-		else 
-			{
-				System.out.print("not Amstrong");
-			}
-	}
-
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int n=s.nextInt();
+        System.out.println(armstrong(n));
+    }
+    public static String armstrong(int n){
+        int temp=n;
+        int res=0;
+        int count=0;
+        while(n>0){
+            count++;
+            n=n/10;
+        }
+        n=temp;
+        while(n>0){
+            int d=n%10;
+            res=res+(int)Math.pow(d,count);
+            n=n/10;
+        }
+        if(res==temp){
+            return "armstrong";
+        }
+        else{
+            return "not armstrong";
+        }
+    }
 }

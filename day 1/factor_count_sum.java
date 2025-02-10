@@ -1,6 +1,6 @@
 //factor sum and count of n nymber
 import java.util.*;
-public class ex10 {
+public class factor_count_sum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();

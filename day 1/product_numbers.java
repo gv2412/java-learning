@@ -1,7 +1,7 @@
 //multiplication of n numbers
 import java.util.*;
 
-public class ex7 {
+public class product_numbers {
     public static void main(String[]args)
     {
         Scanner sc = new Scanner(System.in);
