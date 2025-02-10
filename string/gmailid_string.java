@@ -1,20 +1,37 @@
-import java.util.*;
+//generate a code to check whether a givien email as string input is valid or not and also specify that it should contain atleast 1 special character and numbers inside it 
+import java.util.Scanner;
+
 public class gmailid_string {
-    //generate the code for checking a string is a valid gmail or not without using map function and provide string as user input
+    public static boolean isValidEmail(String email) {
+        if (email == null || email.isEmpty()) {
+            return false;
+        }
+
+        boolean hasSpecialChar = false;
+        boolean hasNumber = false;
+
+        for (char c : email.toCharArray()) {
+            if (!Character.isLetterOrDigit(c) && c != '@' && c != '.') {
+                hasSpecialChar = true;
+            }
+            if (Character.isDigit(c)) {
+                hasNumber = true;
+            }
+        }
+
+        return email.contains("@") && email.contains(".") && hasSpecialChar && hasNumber;
+    }
+
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String str = sc.nextLine();
-        boolean flag = false;
-        if (str.contains("@gmail.com")) {
-            flag = true;
-        }
-        if (flag == true) {
-            System.out.println("valid");
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter email: ");
+        String email = scanner.nextLine();
+        if (isValidEmail(email)) {
+            System.out.println("Valid email");
         } else {
-            System.out.println("invalid");
+            System.out.println("Invalid email");
         }
+        scanner.close();
     }
 }
-
-
-   
+  
