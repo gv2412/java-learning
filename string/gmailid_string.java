@@ -1,4 +1,3 @@
-//generate a code to check whether a givien email as string input is valid or not and also specify that it should contain atleast 1 special character and numbers inside it 
 import java.util.Scanner;
 
 public class gmailid_string {

@@ -1,3 +1,4 @@
+import java.util.*;
 public class PasswordValidator {
     public static boolean isValidPassword(String password) {
         if (password.length() < 8) {
@@ -24,15 +25,11 @@ public class PasswordValidator {
     }
 
     public static void main(String[] args) {
-        String[] passwords = {
-            "Test@123",     
-            "test123@",  
-            "TEST123@", 
-            "Test@ abc", 
-            "Test1234",  
-            "T@1"        
-        };
-
+        Scanner s=new Scanner(System.in);
+        String passwords[]=new String[5];
+        for(int i=0;i<1;i++){
+            passwords[i]=s.nextLine();
+        }
         for (String password : passwords) {
             System.out.println("Password: " + password + " -> " + (isValidPassword(password) ? "Valid" : "Invalid"));
         }
