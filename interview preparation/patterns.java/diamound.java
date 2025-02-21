@@ -1,0 +1,1 @@
+//generate a code to print the diamound pattern using * symbol
