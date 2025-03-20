@@ -14,4 +14,3 @@ public class missingnumber {
         System.out.println("The missing number is: " + missingNumber);
     }
 }
-

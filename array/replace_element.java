@@ -10,6 +10,7 @@ public class replace_element {
         }
         int element = s.nextInt();
         int index = s.nextInt();
+        int newarr[]=new int[n+1];
         arr[index] = element;
         System.out.println(Arrays.toString(arr));
     }

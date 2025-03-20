@@ -9,15 +9,18 @@ public class insert_element {
         }
         int element = s.nextInt();
         int index = s.nextInt();
-        int[] newArr = new int[arr.length + 1];
-        for (int i = 0; i < index; i++) {
-            newArr[i] = arr[i];
+        int[] newarr = new int[arr.length + 1];
+        for(int i=0;i<n+1;i++){
+            if(i<index){
+                newarr[i]=arr[i];
+            }
+            else if (i==index) {
+                newarr[i]=element;
+            }else{
+                newarr[i]=arr[i-1];
+            }
         }
-        newArr[index] = element;
-        for (int i = index; i < arr.length; i++) {
-            newArr[i +1] = arr[i];
-        }
-        System.out.println(Arrays.toString(newArr));
+        System.out.println(Arrays.toString(newarr));
     }
 }
 
