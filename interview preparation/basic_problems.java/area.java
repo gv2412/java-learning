@@ -1,4 +1,4 @@
-//generate a code that will calculate the area of all kinds of shapes and also the volume of all kinds of shapes
+
 import java.util.Scanner;
 
 public class area {
@@ -58,6 +58,7 @@ public class area {
             default:
                 System.out.println("Invalid shape choice.");
         }
+    }
         public static void calculateVolume(Scanner scanner) {
         System.out.println("Choose a shape:");
         System.out.println("1. Sphere");

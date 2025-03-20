@@ -1,8 +1,3 @@
-//generate a user authentication program to check whether the input username and password are correct or not which should meet the following requirements:
-//1. The username should be similar to email id and the password should contain a uppercase ,lowercase ,numbers and special characters in it.
-//2. If the username and password are correct, print "Welcome admin".
-//3. If the username is correct but the password is incorrect, print "Invalid password".
-//4. If the username is incorrect, print "Invalid username".
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
