@@ -14,6 +14,9 @@ public class area {
             case 1:
                 calculateArea(scanner);
                 break;
+            case 2:
+                calculateVolume(scanner);
+                break;
             default:
                 System.out.println("Invalid choice.");
         }
@@ -55,6 +58,37 @@ public class area {
             default:
                 System.out.println("Invalid shape choice.");
         }
+        public static void calculateVolume(Scanner scanner) {
+        System.out.println("Choose a shape:");
+        System.out.println("1. Sphere");
+        System.out.println("2. Cylinder");
+        System.out.println("3. Cone");
+        int shapeChoice = scanner.nextInt();
+        switch (shapeChoice) {
+        
+            case 1:
+                System.out.print("Enter radius: ");
+                double radius = scanner.nextDouble();
+                System.out.println("Volume of sphere: " + (4.0 / 3.0 * Math.PI * radius * radius * radius));
+                break;
+            case 2:
+                System.out.print("Enter radius: ");
+                radius = scanner.nextDouble();
+                System.out.print("Enter height: ");
+                double height = scanner.nextDouble();
+                System.out.println("Volume of cylinder: " + (Math.PI * radius * radius * height));
+                break;
+            case 3:
+                System.out.print("Enter radius: ");
+                radius = scanner.nextDouble();
+                System.out.print("Enter height: ");
+                height = scanner.nextDouble();
+                System.out.println("Volume of cone: " + (1.0 / 3.0 * Math.PI * radius * radius * height));
+                break;
+            default:
+                System.out.println("Invalid shape choice.");
+        }
+
     }
 }
 
