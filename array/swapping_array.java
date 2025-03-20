@@ -19,4 +19,4 @@ public class swapping_array {
         }
             System.out.print(Arrays.toString(arr));
     }
-}
+} 

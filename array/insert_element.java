@@ -15,7 +15,7 @@ public class insert_element {
         }
         newArr[index] = element;
         for (int i = index; i < arr.length; i++) {
-            newArr[i + 1] = arr[i];
+            newArr[i +1] = arr[i];
         }
         System.out.println(Arrays.toString(newArr));
     }
