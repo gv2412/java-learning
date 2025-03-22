@@ -1,6 +1,4 @@
 import java.util.Scanner;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class user_autentication {
 
@@ -23,11 +21,13 @@ public class user_autentication {
     }
 
     public static boolean isValidUsername(String username) {
-        String emailRegex = "^[a-zA-Z0-9_+&*-]+(?:\\.[a-zA-Z0-9_+&*-]+)*@" +
-                "(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,7}$";
-        Pattern pattern = Pattern.compile(emailRegex);
-        Matcher matcher = pattern.matcher(username);
-        return matcher.matches();
+        if(username==null||username.isEmpty()){
+            return false;
+        }
+        if(!username.endsWith("@gmail.com")){
+            return false;
+        }
+        return true;
     }
 
     public static boolean isValidPassword(String password) {
