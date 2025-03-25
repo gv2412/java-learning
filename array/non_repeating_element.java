@@ -7,19 +7,13 @@ public class non_repeating_element {
         for(int i=0;i<n;i++){
             arr[i]=s.nextInt();
         }
-        
-        for(int i=0;i<n;i++){
-            boolean a=false;
-            for(int j=0;j<n;j++){
-                if(i!=j&&arr[i]==arr[j]){
-                    a=true;
-                    break;
-                }
-            }
-            if(!a){
-                System.out.print(arr[i]+" ");   
-                return;
+        Arrays.sort(arr);
+        System.out.print("["+arr[0]);
+        for(int i=1;i<n;i++){
+            if(arr[i]!=arr[i-1]){
+                System.out.print(","+arr[i]);
             }
         }
+        System.out.println("]");
     }
 }

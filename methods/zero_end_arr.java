@@ -7,11 +7,12 @@ public class zero_end_arr {
         for(int i=0;i<n;i++){
             arr[i]=s.nextInt();
         }
-      /*   z(arr);
+        z(arr);
         
     }
-    public static void z(int arr[]){*/
+    public static void z(int arr[]){
         int count=0;
+        int n=arr.length;
         for(int i=0;i<n;i++){
             if(arr[i]!=0){
                 arr[count++]=arr[i];

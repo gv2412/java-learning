@@ -18,7 +18,7 @@ public class insert_element {
                 newarr[i]=element;
             }else{
                 newarr[i]=arr[i-1];
-            }
+            } 
         }
         System.out.println(Arrays.toString(newarr));
     }
