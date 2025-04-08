@@ -20,6 +20,4 @@ public class max_count_string {
         }
         System.out.println(ch);
     }
-}
-
-       
+} 

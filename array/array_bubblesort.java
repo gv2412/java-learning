@@ -1,5 +1,5 @@
 import java.util.*;
-public class bubblesort{
+public class array_bubblesort{
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
         int n=s.nextInt();

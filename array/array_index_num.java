@@ -1,5 +1,5 @@
 import java.util.*;
-public class repeating_num {
+public class array_index_num {
     public static void main(String[] args){
         Scanner s=new Scanner(System.in);
         int n=s.nextInt();
@@ -7,12 +7,11 @@ public class repeating_num {
         for(int i=0;i<n;i++){
             arr[i]=s.nextInt();
         }
+        int key=s.nextInt();
         for(int i=0;i<n;i++){
-            for(int j=i+1;j<n;j++){
-                if(arr[i]==arr[j]){
-                System.out.print(arr[i]+" ");
-                
-                }
+            if(arr[i]==key){
+                System.out.print("index of "+key+" is "+i);
+                break;
             }
         }
     }

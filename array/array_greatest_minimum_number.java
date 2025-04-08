@@ -1,5 +1,5 @@
 import java.util.*;
-public class greatest_minimum_number {
+public class array_greatest_minimum_number {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int n=s.nextInt();

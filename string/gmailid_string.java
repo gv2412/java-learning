@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class gmailid_string {
     public static boolean isValidEmail(String email) {
         if (email == null || email.isEmpty()) {
@@ -10,7 +9,7 @@ public class gmailid_string {
         boolean hasNumber = false;
 
         for (char c : email.toCharArray()) {
-            if (!Character.isLetterOrDigit(c) && c != '@' && c != '.') {
+            if (!Character.isLetterOrDigit(c) || c != '@' || c != '.'||c==' ') {
                 hasSpecialChar = true;
             }
             if (Character.isDigit(c)) {
@@ -18,7 +17,7 @@ public class gmailid_string {
             }
         }
 
-        return email.contains("@") && email.contains(".") && hasSpecialChar && hasNumber;
+        return email.contains("@gmail.com")  && hasSpecialChar && hasNumber;
     }
 
     public static void main(String[] args) {

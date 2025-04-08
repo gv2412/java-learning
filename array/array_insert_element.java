@@ -1,5 +1,5 @@
 import java.util.*;
-public class insert_element {
+public class array_insert_element {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();

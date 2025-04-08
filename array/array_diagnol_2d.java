@@ -1,5 +1,5 @@
 import java.util.*;
-public class diagnol_array{
+public class array_diagnol_2d{
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();

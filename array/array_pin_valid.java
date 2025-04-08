@@ -1,5 +1,5 @@
 import java.util.*;
-public class pin_valid {
+public class array_pin_valid {
     public static void main(String[] args){
         Scanner s=new Scanner(System.in);
         int n=s.nextInt();

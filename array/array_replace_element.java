@@ -1,6 +1,6 @@
 
 import java.util.*;
-public class replace_element {
+public class array_replace_element {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();

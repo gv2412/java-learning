@@ -8,12 +8,8 @@ class sum_array_check{
             arr[i]=s.nextInt();
         }
         int key=s.nextInt();
-        int r=0;
         for(int i=0;i<n;i++){
-            int sum=0;
             for(int j=i;j<n;j++){
-                sum+=arr[j];
-                if(sum==key)
                 if(arr[i]+arr[j]==key){
                     System.out.println(arr[i]+","+arr[j]);
                 }

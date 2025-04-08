@@ -1,5 +1,5 @@
 import java.util.*;
-public class positive_negative_count {
+public class array_positive_negative_count {
     public static void main(String[] args){
         Scanner s=new Scanner (System.in);
         int n=s.nextInt();

@@ -1,5 +1,5 @@
 import java.util.*;
-public class sum_array {
+public class array_sum_array {
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
         int[] arr=new int[5];
