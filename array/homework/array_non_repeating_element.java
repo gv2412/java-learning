@@ -1,3 +1,4 @@
+package homework;
 import java.util.*;
 public class array_non_repeating_element {
     public static void main(String[] args){

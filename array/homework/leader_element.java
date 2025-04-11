@@ -1,5 +1,6 @@
+package homework;
 import java.util.*;
-public class array_majority_num {
+public class leader_element {
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
         int n=s.nextInt();
