@@ -1,4 +1,3 @@
-package two_pointer_subarray;
 import java.util.*;
 public class positive_sum_subarray {
     public static void main(String[] args){

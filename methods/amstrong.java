@@ -1,4 +1,3 @@
-//generate a code to check whether the given number is armstrong number or not
 import java.util.*;
 public class amstrong {
     public static void main(String[] args) {

@@ -10,16 +10,17 @@ public class array_non_repeating_element {
         unique_number(arr,n);
     }
     public static void unique_number(int arr[],int n){
+        ArrayList<Integer> a=new ArrayList<>();
         for(int i=0;i<n;i++){
-            int count=0;
-            for(int j=0;j<n;j++){
+            for(int j=i+1;j<n;j++){
                 if(arr[i]==arr[j]){
-                    count++;
+                    a.add(arr[i]);
+                }
+                if(arr[i]!=arr[j]){
+                    a.add(arr[i]);
                 }
             }
-            if(count==1){
-                System.out.print(arr[i]+" ");
-            }
         }
+        System.out.print(a);
     }
 }

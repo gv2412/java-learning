@@ -1,4 +1,3 @@
-package two_pointer_subarray;
 import java.util.*;
 class sum_array_check{
     public static void main(String[] args){

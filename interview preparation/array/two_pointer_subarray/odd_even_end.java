@@ -1,4 +1,3 @@
-package two_pointer_subarray;
 import java.util.*;
 public class odd_even_end {
     public static void main(String[] args){
@@ -9,10 +8,34 @@ public class odd_even_end {
             arr[i]=s.nextInt();
         }
         odd_even(arr,n);
-        System.out.print(Arrays.toString(arr));
     }
-    public static void odd_even(int arr[],int n){
-        int start=0;
+    public static void odd_even(int arr[],int n){ 
+
+        //Sorted array
+        ArrayList<Integer> odd=new ArrayList<>();
+        ArrayList<Integer> even=new ArrayList<>();
+        for(int num:arr){
+            if(num%2==0){
+                even.add(num);
+            }else{
+                odd.add(num);
+            }
+        }
+        Collections.sort(even);
+        Collections.sort(odd);
+        int i=0;
+        for(int num:even){
+            arr[i++]=num;
+        }
+        for(int num:odd){
+            arr[i++]=num;
+        }
+        for(int num:arr){
+            System.out.print(num+" ");
+        }
+
+        //unsorted array
+        /*int start=0;
         int end=n-1;
         while(start<end){
             if(arr[start]%2==0){
@@ -28,6 +51,6 @@ public class odd_even_end {
                 start++;
                 end--;
             }
-        }
+        }*/
     }
 }

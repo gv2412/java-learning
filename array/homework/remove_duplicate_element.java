@@ -43,7 +43,7 @@ public class remove_duplicate_element {
     }*/
 //------------------------------------------------------------------------------------------------------------------
     // METHOD 3: UNSORTED ARRAY 
-    public static void remove_duplicate(int arr[],int n){
+    /*public static void remove_duplicate(int arr[],int n){
         int count=0;
         for(int i=0;i<n;i++){
             for(int j=i+1;j<n;j++){
@@ -55,6 +55,19 @@ public class remove_duplicate_element {
         for(int i=0;i<n;i++){
             if(arr[i]!=-1){
             System.out.print(arr[i]+" ");
+            }
+        }
+    }*/
+    public static void remove_duplicate(int arr[],int n){
+        for(int i=0;i<n;i++){
+            int count=0;
+            for(int j=0;j<n;j++){
+                if(arr[i]==arr[j]&&i!=j){
+                    count++;
+                }
+            }
+            if(count==0){
+                System.out.print(arr[i]);
             }
         }
     }

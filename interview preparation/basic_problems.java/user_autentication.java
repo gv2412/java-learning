@@ -36,7 +36,7 @@ public class user_autentication {
         }
         boolean hasUpper = false;
         boolean hasLower = false;
-        boolean hasDigit = false;565
+        boolean hasDigit = false;
         boolean hasSpecial = false;
         for (char c : password.toCharArray()) {
             if (Character.isUpperCase(c)) {

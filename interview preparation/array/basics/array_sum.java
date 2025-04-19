@@ -20,9 +20,13 @@ public class array_sum {
         }
         System.out.print("The sum of array : "+sum);*/
 
-        int sum=Arrays.stream(arr).sum();
+        /*int sum=Arrays.stream(arr).sum();
+        System.out.print(sum);*/
+
+        int sum=0;
+        for(int i=0;i<n;i++){
+            sum+=arr[i];
+        }
         System.out.print(sum);
     }
-
-
 }

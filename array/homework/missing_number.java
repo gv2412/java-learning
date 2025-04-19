@@ -1,4 +1,3 @@
-//genrate a code to print the missing number in a array
 package homework;
 import java.util.*;
 public class missing_number {

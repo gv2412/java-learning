@@ -16,12 +16,26 @@ public class arr_reverse {
     //Array reverse the array
 //------------------------------------------------------------------------------------------------------------------------
 
-    public static void problem(int arr[],int n){
+    /*public static void problem(int arr[],int n){
         for(int i=n-1;i>0;i--){
             System.out.print(Arrays.toString(arr));
             return;
         }
         
+    }*/
+    public static void problem(int arr[],int n){
+        int start=0;
+        int end=n-1;
+        while(start<end){
+            int temp=arr[start];
+            arr[start]=arr[end];
+            arr[end]=temp;
+            start++;
+            end--;
+        }
+        for(int num:arr){
+            System.out.print(num+" ");
+        }
     }
 
 }

@@ -1,4 +1,3 @@
-package two_pointer_subarray;
 import java.util.*;
 public class reverse_array_ele {
         public static void main(String[] args){
