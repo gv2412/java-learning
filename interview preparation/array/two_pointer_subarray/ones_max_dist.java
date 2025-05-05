@@ -26,5 +26,5 @@ public class ones_max_dist {
             return 0;
         }
         return last-first;
-    } 
+    }
 }

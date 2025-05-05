@@ -1,0 +1,308 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "array_bubblesort",
+            "request": "launch",
+            "mainClass": "array_bubblesort",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "array_diagnol_2d",
+            "request": "launch",
+            "mainClass": "array_diagnol_2d",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "array_greatest_minimum_number",
+            "request": "launch",
+            "mainClass": "array_greatest_minimum_number",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "array_index_num",
+            "request": "launch",
+            "mainClass": "array_index_num",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "array_input",
+            "request": "launch",
+            "mainClass": "array_input",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "array_insert_element",
+            "request": "launch",
+            "mainClass": "array_insert_element",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "array_majority_num",
+            "request": "launch",
+            "mainClass": "array_majority_num",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "array_min_max_num",
+            "request": "launch",
+            "mainClass": "array_min_max_num",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "array_missingnumber",
+            "request": "launch",
+            "mainClass": "array_missingnumber",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "array_non_repeating_element",
+            "request": "launch",
+            "mainClass": "array_non_repeating_element",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "array_odd_even_count",
+            "request": "launch",
+            "mainClass": "array_odd_even_count",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "array_odd_even_sum",
+            "request": "launch",
+            "mainClass": "array_odd_even_sum",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "array_pin_valid",
+            "request": "launch",
+            "mainClass": "array_pin_valid",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "array_positive_negative_count",
+            "request": "launch",
+            "mainClass": "array_positive_negative_count",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "array_repeating_num",
+            "request": "launch",
+            "mainClass": "array_repeating_num",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "array_replace_element",
+            "request": "launch",
+            "mainClass": "array_replace_element",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "array_reverse_array",
+            "request": "launch",
+            "mainClass": "array_reverse_array",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "array_ronaldo_num",
+            "request": "launch",
+            "mainClass": "array_ronaldo_num",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "array_sort",
+            "request": "launch",
+            "mainClass": "array_sort",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "array_sum_array",
+            "request": "launch",
+            "mainClass": "array_sum_array",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "array_sum_average",
+            "request": "launch",
+            "mainClass": "array_sum_average",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "array_swapping",
+            "request": "launch",
+            "mainClass": "array_swapping",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "array_userinput",
+            "request": "launch",
+            "mainClass": "array_userinput",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "count_frequency_num",
+            "request": "launch",
+            "mainClass": "count_frequency_num",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "array_non_repeating_element(1)",
+            "request": "launch",
+            "mainClass": "homework.array_non_repeating_element",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "leader_element",
+            "request": "launch",
+            "mainClass": "homework.leader_element",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "missing_number",
+            "request": "launch",
+            "mainClass": "homework.missing_number",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "remove_duplicate_element",
+            "request": "launch",
+            "mainClass": "homework.remove_duplicate_element",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "second_largest",
+            "request": "launch",
+            "mainClass": "homework.second_largest",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "non_fibnocci",
+            "request": "launch",
+            "mainClass": "non_fibnocci",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "number",
+            "request": "launch",
+            "mainClass": "number",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "rotate_rev",
+            "request": "launch",
+            "mainClass": "rotate_rev",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "subarray",
+            "request": "launch",
+            "mainClass": "subarray",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "subarray_max",
+            "request": "launch",
+            "mainClass": "subarray_max",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "subarray_pair_sum",
+            "request": "launch",
+            "mainClass": "subarray_pair_sum",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "subarray_sum",
+            "request": "launch",
+            "mainClass": "subarray_sum",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "frequency",
+            "request": "launch",
+            "mainClass": "test_preparation.frequency",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "min_max",
+            "request": "launch",
+            "mainClass": "test_preparation.min_max",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "rotate_rev(1)",
+            "request": "launch",
+            "mainClass": "test_preparation.rotate_rev",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "second_largest(1)",
+            "request": "launch",
+            "mainClass": "test_preparation.second_largest",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "treasue_sum",
+            "request": "launch",
+            "mainClass": "treasue_sum",
+            "projectName": "array_4b139040"
+        },
+        {
+            "type": "java",
+            "name": "twoD_array",
+            "request": "launch",
+            "mainClass": "twoD_array",
+            "projectName": "array_4b139040"
+        }
+    ]
+}
